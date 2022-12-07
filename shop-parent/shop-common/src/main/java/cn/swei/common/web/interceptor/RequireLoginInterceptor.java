@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by lanxw
+ * Created by swei
  */
 public class RequireLoginInterceptor implements HandlerInterceptor {
     private StringRedisTemplate redisTemplate;

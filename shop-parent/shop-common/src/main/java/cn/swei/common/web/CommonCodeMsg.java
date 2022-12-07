@@ -1,7 +1,7 @@
 package cn.swei.common.web;
 
 /**
- * Created by lanxw
+ * Created by swei
  */
 public class CommonCodeMsg extends CodeMsg {
     private CommonCodeMsg(Integer code, String msg){

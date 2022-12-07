@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by wolfcode-lanxw
+ * Created by swei
  */
 @Getter
 public enum JobRedisKey {

@@ -1,7 +1,7 @@
 package cn.swei.common.constants;
 
 /**
- * Created by lanxw
+ * Created by swei
  */
 public class CommonConstants {
     public static final String TOKEN_NAME = "token";

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by wolfcode-lanxw
+ * Created by swei
  */
 public class CommonControllerAdvice {
     @ExceptionHandler(BusinessException.class)

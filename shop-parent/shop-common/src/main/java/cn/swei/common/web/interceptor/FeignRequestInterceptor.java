@@ -5,7 +5,7 @@ import feign.RequestInterceptor;
 import feign.RequestTemplate;
 
 /**
- * Created by lanxw
+ * Created by swei
  */
 public class FeignRequestInterceptor implements RequestInterceptor {
     @Override

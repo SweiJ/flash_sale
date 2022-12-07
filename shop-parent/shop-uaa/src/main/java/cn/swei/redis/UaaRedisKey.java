@@ -8,9 +8,12 @@ import java.util.concurrent.TimeUnit;
  * Created by swei
  */
 @Getter
-public enum CommonRedisKey {
-    USER_TOKEN("userToken:",TimeUnit.MINUTES,30);
-    CommonRedisKey(String prefix, TimeUnit unit, int expireTime){
+public enum UaaRedisKey {
+    USERLOGIN_HASH("userLoginHash"), USERINFO_HASH("userInfoHash"),USER_ZSET("userZset");
+    UaaRedisKey(String prefix){
+        this .prefix = prefix;
+    }
+    UaaRedisKey(String prefix, TimeUnit unit, int expireTime){
         this.prefix = prefix;
         this.unit = unit;
         this.expireTime = expireTime;

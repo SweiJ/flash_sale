@@ -3,7 +3,7 @@ package cn.swei.common.web.anno;
 import java.lang.annotation.*;
 
 /**
- * Created by lanxw
+ * Created by swei
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
