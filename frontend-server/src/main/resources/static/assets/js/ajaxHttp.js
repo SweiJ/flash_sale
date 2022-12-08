@@ -1,6 +1,6 @@
 //  通用的ajax方法
 function ajaxHttp (obj, callback, err) {
-    $.ajax(window.location.origin+":9000"+obj.url, {
+    $.ajax("http://"+window.location.hostname+":9000"+obj.url, {
         type: obj.type || 'get',
         contentType: obj.contentType || 'application/json;charset=UTF-8',
         headers:{'token': localStorage.getItem('token')},
